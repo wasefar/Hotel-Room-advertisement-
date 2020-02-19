@@ -1,0 +1,1226 @@
+/******************************************************************
+Theme Name: villa 360 
+Description:offical
+Author: arwasef
+Author URI: 
+Version: 1.0
+Created: 
+******************************************************************/
+/*------------------------------------------------------------------
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+
+[Table of contents]
+1.  CSS-CLASS ATTRITUBE STYLES***************************************
+	1.1	Font Family and Colors Styles [Line://33 to 57]
+	1.2	 Basic Style  [Line://58 to ]
+	1.3	padding-propaty [Line//78 to 102]
+	1.4	padding-bottom-propaty [Line://105 to 150]
+    1.5 padding-top-propaty [Line://170 to 212]                                         
+    1.6 margin-left/right-propaty [Line://223 to 306]
+    1.7 margin-top-propaty [Line://311 to 353]
+    1.8 container-position
+    1.9 global css
+    2.0 color
+    2.1 background-color
+    2.2 font-size-propaty
+    2.3
+
+2.  HEADER STYLES page-491
+
+      2.1 header (page-492)
+      2.2 nav-bar (page-516)
+
+3.    MAIN STYLES page-543
+
+      3.1 main page-545
+      3.2 about page-549
+      3.3 A-service page-563
+      3.4 B-service (Room-1) page-594
+      3.5 B2-service(Room-2) page-667
+      3.6 contact page-741
+      3.7 address page-771
+      3.8 form page-801
+
+ 4.   FOOTER STYLES page-835
+
+      4.1 footer-service page-843 
+      4.2 copyright page-870
+      4.3 backtotop page-880
+      4.4 fixed-menu page-894
+
+ 5.   RESPONSIVE DESGIN---page-937
+-------------------------------------------------------------------*/
+/* =================================== 
+  Font Family and Colors Styles ======*/
+
+  #sans-serif{
+  	font-family: sans-serif;
+  }
+  #fantasy{
+  	font-family: fantasy;
+  }
+  #monospace{
+  	font-family: monospace;
+  }
+  #cursive{
+  	font-family: cursive;
+  }
+
+  /*================ make a google fonts
+  =======================================================*/
+
+#bree-serif{
+	font-family: bree-serif;
+}
+#coiny{
+	font-family: coiny;
+}
+@font-face {
+	font-family:Barriecito;
+	src:url(Barriecito/Barriecito-Regular.ttf)format("truetype");
+}
+@font-face {
+	font-family:Bree Serif;
+	src:url(Bree_Serif/BreeSerif-Regular.ttf)format("truetype");
+}
+@font-face {
+	font-family:Coiny;
+	src:url(Coiny/Coiny-Regular.ttf)format("truetype");
+}
+@font-face {
+	font-family:Lobster_Two;
+	src:url(Lobster_Two/LobsterTwo-Regular.ttf)format("truetype");
+}
+
+/*  Basic Style     
+ =================================== */
+
+ #center{
+ 	text-align: center;
+ }
+ #f-left{
+ 	float: left;
+ }
+ #f-right{
+ 	float: right;
+ }
+ ul,
+ ol{
+ 	list-style: none;
+ }
+ html{
+ 	scroll-behavior: smooth;
+ }
+ #nav-menu-color{
+ 	color: #fff;
+ 	font-size: 18px;
+ 	font-weight: 600;
+ }
+ #circle{
+ 	list-style: circle;
+ }
+
+ /*================ padding-propaty
+ =======================================================================*/
+
+.p0{padding: 0;}
+.p1{padding: 1px;}
+.p2{padding: 2px}
+.p3{padding: 3px;}
+.p4{padding: 4px;}
+.p5{padding: 5px}
+.p6{padding: 6;}
+.p7{padding: 7px;}
+.p8{padding: 8px}
+.p9{padding: 9px;}
+.p10{padding: 10px;}
+.p11{padding: 11;}
+.p12{padding: 12px;}
+.p13{padding: 13px}
+.p14{padding: 14px;}
+.p15{padding: 15px;}
+.p16{padding: 16;}
+.p17{padding: 17px;}
+.p18{padding: 18px}
+.p19{padding: 19px;}
+.p20{padding: 20px;} 
+
+
+ /*================ padding-bottom-propaty
+ =======================================================================*/
+
+.pb0{padding-bottom: 0;}
+.pb1{padding-bottom: 1px;}
+.pb2{padding-bottom: 2px}
+.pb3{padding-bottom: 3px;}
+.pb4{padding-bottom: 4px;}
+.pb5{padding-bottom: 5px}
+.pb6{padding-bottom: 6;}
+.pb7{padding-bottom: 7px;}
+.pb8{padding-bottom: 8px}
+.pb9{padding-bottom: 9px;}
+.pb10{padding-bottom: 10px;}
+.pb11{padding-bottom: 11;}
+.pb12{padding-bottom: 12px;}
+.pb13{padding-bottom: 13px}
+.pb14{padding-bottom: 14px;}
+.pb15{padding-bottom: 15px;}
+.pb16{padding-bottom: 16;}
+.pb17{padding-bottom: 17px;}
+.pb18{padding-bottom: 18px}
+.pb19{padding-bottom: 19px;}
+.pb20{padding-bottom: 20px;} 
+.pb21{padding-bottom: 0;}
+.pb22{padding-bottom: 1px;}
+.pb23{padding-bottom: 2px}
+.pb24{padding-bottom: 3px;}
+.pb25{padding-bottom: 4px;}
+.pb26{padding-bottom: 5px}
+.pb27{padding-bottom: 6;}
+.pb28{padding-bottom: 7px;}
+.pb29{padding-bottom: 8px}
+.pb30{padding-bottom: 9px;}
+.pb31{padding-bottom: 10px;}
+.pb32{padding-bottom: 11;}
+.pb33{padding-bottom: 12px;}
+.pb34{padding-bottom: 13px}
+.pb35{padding-bottom: 14px;}
+.pb36{padding-bottom: 15px;}
+.pb37{padding-bottom: 16;}
+.pb38{padding-bottom: 17px;}
+.pb39{padding-bottom: 18px}
+.pb40{padding-bottom: 19px;}
+.pb41{padding-bottom: 20px;} 
+
+/*================ padding-top-propaty
+ =======================================================================*/
+
+.pt0{padding-top: 0;}
+.pt1{padding-top: 1px;}
+.pt2{padding-top: 2px}
+.pt3{padding-top: 3px;}
+.pt4{padding-top: 4px;}
+.pt5{padding-top: 5px}
+.pt6{padding-top: 6;}
+.pt7{padding-top: 7px;}
+.pt8{padding-top: 8px}
+.pt9{padding-top: 9px;}
+.pt10{padding-top: 10px;}
+.pt11{padding-top: 11;}
+.pt12{padding-top: 12px;}
+.pt13{padding-top: 13px}
+.pt14{padding-top: 14px;}
+.pt15{padding-top: 15px;}
+.pt16{padding-top: 16;}
+.pt17{padding-top: 17px;}
+.pt18{padding-top: 18px}
+.pt19{padding-top: 19px;}
+.pt20{padding-top: 20px;} 
+.pt21{padding-top: 21px;}
+.pt22{padding-top: 22px;}
+.pt23{padding-top: 23px}
+.pt24{padding-top: 24px;}
+.pt25{padding-top: 25px;}
+.pt26{padding-top: 26px}
+.pt27{padding-top: 27px;}
+.pt28{padding-top: 28px;}
+.pt29{padding-top: 29px}
+.pt30{padding-top: 30px;}
+.pt31{padding-top: 31px;}
+.pt32{padding-top: 32px;}
+.pt33{padding-top: 33px;}
+.pt34{padding-top: 34px}
+.pt35{padding-top: 35px;}
+.pt36{padding-top: 36px;}
+.pt37{padding-top: 37px;}
+.pt38{padding-top: 38px;}
+.pt39{padding-top: 39px}
+.pt40{padding-top: 40px;}
+.pt41{padding-top: 41px;} 
+.pt60{padding-top: 60px;} 
+
+/*================ margin-left/right-propaty
+ =======================================================================*/
+
+.mlr0
+{margin: 0 0 0 0;}
+.mlr1
+{margin: 0 0 1px 1px;}
+.mlr2
+{margin: 0 0 2px 2px}
+.mlr3
+{margin: 0 0 3px 3px;}
+.mlr4
+{margin: 0 0 4px 4px;}
+.mlr5
+{margin: 0 0 5px 5px}
+.mlr6
+{margin: 0 0 6px 6;}
+.mlr7
+{margin: 0 0 7px 7px;}
+.mlr8
+{margin: 0 0 8px 8px}
+.mlr9
+{margin: 0 0 9px 9px;}
+.mlr10
+{margin: 0 0 10px 10px;}
+.mlr11
+{margin: 0 0 11px 11;}
+.mlr12
+{margin: 0 0 12px 12px;}
+.mlr13
+{margin: 0 0 13px 13px}
+.mlr14
+{margin: 0 0 14px 14px;}
+.mlr15
+{margin: 0 0 15px 15px;}
+.mlr16
+{margin: 0 0 16px 16;}
+.mlr17
+{margin: 0 0 17px  17px;}
+.mlr18
+{margin: 0 0 18px 18px}
+.mlr19
+{margin: 0 0 19px 19px;}
+.mlr20
+{margin: 0 0 20px 20px;} 
+.mlr21
+{margin: 0 0 21px 21px;}
+.mlr22
+{margin: 0 0 22px 22px;}
+.mlr23
+{margin: 0 0 23px 23px}
+.mlr24
+{margin: 0 0 24px 24px;}
+.mlr25
+{margin: 0 0 25px 25px;}
+.mlr26
+{margin: 0 0 26px 26px}
+.mlr27
+{margin: 0 0 27px 27px;}
+.mlr28
+{margin: 0 0 28px 28px;}
+.mlr29
+{margin: 0 0 29px 29px}
+.mlr30
+{margin: 0 0 30px 30px;}
+.mlr31
+{margin: 0 0 31px 31px;}
+.mlr32
+{margin: 0 0 32px 32px;}
+.mlr33
+{margin: 0 0 33px 33px;}
+.mlr34
+{margin: 0 0 34px 34px}
+.mlr35
+{margin: 0 0 35px 35px;}
+.mlr36
+{margin: 0 0 36px 36px;}
+.mlr37
+{margin: 0 0 37px 37px;}
+.mlr38
+{margin: 0 0 38px 38px;}
+.mlr39
+{margin: 0 0 39px 39px}
+.mlr40
+{margin: 0 0 40px 40px;}
+.mlr41
+{margin: 0 0 41px 41px;} 
+
+/*================ margin-top-propaty
+ =======================================================================*/
+
+.mt0{margin-top: 0;}
+.mt1{margin-top: 1px;}
+.mt2{margin-top: 2px}
+.mt3{margin-top: 3px;}
+.mt4{margin-top: 4px;}
+.mt5{margin-top: 5px}
+.mt6{margin-top: 6;}
+.mt7{margin-top: 7px;}
+.mt8{margin-top: 8px}
+.mt9{margin-top: 9px;}
+.mt10{margin-top: 10px;}
+.mt11{margin-top: 11;}
+.mt12{margin-top: 12px;}
+.mt13{margin-top: 13px}
+.mt14{margin-top: 14px;}
+.mt15{margin-top: 15px;}
+.mt16{margin-top: 16;}
+.mt17{margin-top: 17px;}
+.mt18{margin-top: 18px}
+.mt19{margin-top: 19px;}
+.mt20{margin-top: 20px;} 
+.mt21{margin-top: 21px;}
+.mt22{margin-top: 22px;}
+.mt23{margin-top: 23px}
+.mt24{margin-top: 24px;}
+.mt25{margin-top: 25px;}
+.mt26{margin-top: 26px}
+.mt27{margin-top: 27px;}
+.mt28{margin-top: 28px;}
+.mt29{margin-top: 29px}
+.mt30{margin-top: 30px;}
+.mt31{margin-top: 31px;}
+.mt32{margin-top: 32px;}
+.mt33{margin-top: 33px;}
+.mt34{margin-top: 34px}
+.mt35{margin-top: 35px;}
+.mt36{margin-top: 36px;}
+.mt37{margin-top: 37px;}
+.mt38{margin-top: 38px;}
+.mt39{margin-top: 39px}
+.mt40{margin-top: 40px;}
+.mt41{margin-top: 41px;}
+.mt50{margin-top: 50px;}
+
+/*container-position
+ ============================================================*/
+
+ .container{
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+ }
+ #a-container{
+ 	width: 50%;
+ 	margin: 0 auto;
+ }
+ #b-container{
+ 	width: 60%;
+ 	margin: 0 auto;
+ }
+ #c-container{
+ 	width: 70%;
+ 	margin: 0 auto;
+ }
+ #d-container{
+ 	width: 80%;
+ 	margin: 0 auto;
+ }
+ #e-container{
+ 	width: 90%;
+ 	margin: 0 auto;
+ }
+
+
+	/*========= global-css 
+     ================================================================*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+/*====== color ==================================*/
+
+#white{
+	color: #fff;
+}
+#black{
+	color: #151515;	
+}
+#darkgray{
+	color: #ccc;
+}
+#gray{
+	color: #ddd;
+}
+#dark{
+	color: rgba(0, 0, 0, 0.5);
+}
+#orenge{
+	color: #F0532C;
+}
+#clr{
+	color:#F15C2F;
+}
+
+/*============================= font-size-propaty
+ =======================================================================*/
+
+ #fz15{
+ 	font-size: 15px;
+ }
+ #fz18{
+ 	font-size: 18px;
+ }
+ #fz22{
+ 	font-size: 22px;
+ }
+ #fz25{
+ 	font-size: 25px;
+ }
+ #fz28{
+ 	font-size: 28px;
+ }
+ #fz30{
+ 	font-size: 30px;
+ }
+ #fz35{
+ 	font-size: 35px;
+ }
+ #fz38{
+ 	font-size: 38px;
+ }
+ #fz40{
+ 	font-size: 40px;
+ }
+ #fz42{
+ 	font-size: 42px;
+ }
+ #fz44{
+ 	font-size: 44px;
+ }
+ #fz48{
+ 	font-size: 48px;
+ }
+ #fz50{
+ 	font-size: 50px;
+ }
+
+ /*============================= border-propaty
+ =======================================================================*/
+
+ #bdr{
+ 	border: 1px solid black;
+ }
+
+/*============================= Header styles start
+ =======================================================================*/
+
+/****************header*******************************************/
+header{
+width: 95%;
+margin: 0 auto;
+height: 100vh; 
+background: url("img/1.jpg") no-repeat center/cover;
+animation: slide 10s infinite;
+box-shadow: 0px 3px 20px black;
+}
+@keyframes slide{
+  25%{
+    background: url("img/2.jpg") no-repeat center/cover;
+  }
+  50%{
+    background: url("img/3.jpg") no-repeat center/cover;
+  }
+  75%{
+    background: url("img/4.jpg") no-repeat center/cover;
+  }
+  100%{
+    background: url("img/1.jpg") no-repeat center/cover;
+  }
+  
+}
+/**********************************************nav***********************************/
+nav{
+  padding-top: 180px;
+}
+nav ul li{
+  padding-bottom: 20px;
+  text-align: center;
+}
+nav ul li a{
+  text-transform: uppercase;
+  color:white ;
+  font-size: 25px;
+  font-family: coiny;
+  letter-spacing: 3px;
+}
+nav ul li.active a{
+  color: #6d7858;
+}
+nav ul li a:hover{
+  color: #6d7858;
+}
+/*============================= Header styles End
+ =======================================================================*/
+
+ /*============================= main styles start
+ =======================================================================*/
+
+ /**********************************************main***********************************/
+ main{
+  overflow: hidden;
+ }
+  /**********************************************about-btn > about-btn p***********************************/
+ .about-btn{
+    margin-top: 71px;
+    cursor: pointer;
+ }
+ .about-btn p{
+    font-size: 12px;
+    letter-spacing: 2px;
+    width: 12%;
+    margin: 0 auto;
+    background-color: #6d7858;
+    color: white;
+    font-family: sans-serif;
+    padding: 8px 10px;
+    border-radius: 2px;
+    text-align: center;
+ }
+ /**********************************************A-sec-service > A-service***********************************/
+ .A-sec-service{
+    padding-top: 62px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 100px;
+    width: 85%;
+    margin: 0 auto;
+
+ }
+ .A-service{
+    overflow: hidden;
+ }
+ .A-service img{
+    width: 400px;
+    padding: 5px;
+    transition: .5s;
+    cursor: pointer;
+    border-radius: 10px;
+ }
+ .A-service:hover img{
+    transform: scale(1.1);
+    transition: .5s;
+    filter: brightness(0.3);
+ }
+ .A-service p{
+    color: gray;
+    line-height: 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+ }
+ /**********************************************B-sec-service > B-service (ROOM 1)*************
+ ********************===============================================**/
+ .B-sec-service{
+    padding-top: 62px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    grid-gap: 50px;
+    overflow: hidden;
+ }
+ .B-service{
+    overflow: hidden;
+ }
+ .B-service img{
+    width: 646px;
+    height: 400px;
+    transition: .5s;
+    cursor: pointer;
+    border-radius: 2px;
+ }
+ .B-service:hover img{
+    transform: scale(1.1);
+    transition: .5s;
+    filter: brightness(0.3);
+ }
+ .B-service h4{
+    background: #6d7858;
+    color: white;
+    width: 25%;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 5px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    border-radius: 2px;
+ }
+ .B-service h2{
+    font-family: sans-serif;
+    color: #6d7858;
+    padding-bottom: 8px;
+    font-size: 30px;
+ }
+ #name{
+    color: #6d7858;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 28px;
+    padding-bottom: 25px;
+ }
+ #para{
+    width: 62%;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: gray;
+    line-height: 20px;
+ }
+ .button {
+    margin-top: 35px;
+ }
+ .button a{
+    color: #2C2C2C;
+    font-family:monospace;
+    font-weight: 600;
+    font-size: 15px;
+    color: #2C2C2C;
+    letter-spacing: 1px;
+    border-radius: 2px;
+ }
+ .button a:hover{
+    background: #6d7858;
+    color: white;
+ }
+ /**********************************************B2-sec-service > B2-service (ROOM 2)*************
+ **********************==================================================**/
+ .B2-sec-service{
+    padding-top: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    overflow: hidden;
+     text-align: right;
+ }
+ .B2-service{
+    width: 92%;
+ }
+ .B2-service img{
+    width: 700px;
+    height: 450px;
+    cursor: pointer;
+    transition: .5s;
+     border-radius: 2px;
+ }
+ .B2-service:hover img{
+    filter: brightness(0.3);
+    transition: .5s;
+ }
+ .B2-service  h2{
+    font-family: sans-serif;
+    color: #6d7858;
+    padding-bottom: 8px;
+    font-size: 30px;
+ }
+ #name2{
+    color: #6d7858;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 28px;
+    padding-bottom: 25px;
+ }
+ #para2{
+    width: 62%;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: gray;
+    line-height: 20px;
+    float: right;
+ }
+ .button2{
+    display: inline-block;
+    margin-top: 35px;
+ }
+ .button2 a{
+    color: #2C2C2C;
+    font-family:monospace;
+    font-weight: 600;
+    font-size: 15px;
+    color: #2C2C2C;
+    letter-spacing: 1px;
+    border-radius: 2px;
+ }
+ .button2 a:hover{
+    background: #6d7858;
+    color: white;
+ }
+  /**********.btn-one,,.btn-two {requetment button}(_desgin)************************************/
+ .btn-one{
+   border: 2px solid #6d7858;
+   padding: 10px 10px;
+    margin-right: 6px;
+ 
+ }
+ .btn-two{
+    border: 2px solid #6d7858;
+    padding: 10px 50px;
+ }
+  /**********END {requetment button}(_desgin)************************************/
+
+  /**********.contact > .contact p,.dcpt p(_desgin)************************************/
+ .contact{
+    margin-top: 71px;
+    cursor: pointer;
+  }
+  .contact-details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+ }
+ .contact p{
+    font-size: 12px;
+    letter-spacing: 2px;
+    width: 12%;
+    margin: 0 auto;
+    background-color: #6d7858;
+    color: white;
+    font-family: sans-serif;
+    padding: 8px 10px;
+    border-radius: 2px;
+    text-align: center;
+ }
+ .dcpt p{
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 50px;
+ }
+  /**********.address > .address i, .address span , loc-nmbr, .loc-nmbr p(_desgin)************************************/
+ .address i{
+    margin-bottom: 20px;
+    color:#6d7858;;
+    font-size: 10px;
+ }
+ .address{
+    margin-left: 50px;
+ }
+ .address span{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0 10px;
+    color: #2C2C2C;
+ }
+ .address h4{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+    color: #2C2C2C;
+ }
+ .loc-nmbr{
+    margin-top: 50px;
+    font-size: 12px;
+    font-family:monospace;
+ }
+ .loc-nmbr p{
+    padding-bottom: 5px;
+ }
+ /**********from-sec > . .from-sec input, textarea, ..submit-button , l.submit-button a(_desgin)************************************/
+
+ .from-sec{
+  /* background: #FFCA05; */
+  /*padding:0px 70px;*/
+}
+  .from-sec input, textarea{
+   padding: 12px;
+   margin:8px 5px;
+ }
+  .submit-button{
+    margin-top: 7px;
+  }
+  .submit-button a{
+    background: #6d7858;
+    color: white;
+    padding: 5px 193px;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family:monospace;
+    text-transform: uppercase;
+    text-transform: uppercase;
+  }
+  /*************************************footer >*___*******************************/
+  footer{
+    background: #353c2b;
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: repeat(3, 2fr);
+    padding: 20px 300px 0 320px;
+
+  }
+   /*************************************footer >*.footer-service___*******************************/
+  .footer-service{
+    padding: 20px 0;
+  }
+  .footer-service i{
+    margin-bottom: 15px;
+    color:#ccc;
+    font-size: 10px;
+ }
+ .footer-service span{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0 10px;
+    color: #fff;
+ }
+  /*************************************footer >*..footer-service ul li,.footer-service ul li a ___*******************************/
+ .footer-service ul li{
+  padding-bottom: 10px;
+}
+.footer-service ul li a{
+  text-transform: uppercase;
+  color:#fff;
+  font-size: 12px;
+  font-family: bree serif;
+}
+ /*************************************.copyright > .copyright p___*******************************/
+.copyright{
+  background: #505646;
+}
+.copyright p{
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+/********************backtotop > backtotop i*****************/
+ .backtotop{
+  position: fixed;
+  top: 610px;
+  right: 10px;
+  display: none;
+  cursor: pointer;
+ }
+ .backtotop i{
+  font-size: 25px;
+  background: #353c2b;
+  color: white;
+  padding: 8px;
+ }
+ /********************fixed-menu >.fixed-menu a/.addClass(.fx-menu)/
+  fixed-menu a:hover*****************/
+ .fixed-menu{
+  position: fixed;
+  top: 300px;
+  left: 0;
+  display: none;
+ }
+ .fixed-menu a{
+  display: block;
+  background:#353c2b;
+  color: white;
+  font-family: bree serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 5px 15px;
+  margin-bottom: 10px;
+  border-radius: 0 30px 30px 0;
+  transition: .5s;
+ }
+ .fx-menu{
+  animation:menu 3s;
+  transition: .5s;
+  display: block;
+ }
+ @keyframes menu{
+  0%{
+    opacity: 0;
+    
+    transform: perspective(1000px) rotateY(150deg);
+  }
+  100%{
+    opacity: 1;
+    
+    transform: perspective(0px) rotateY(0deg);
+  }
+ }
+ .fixed-menu a:hover{
+  background: white;
+  color: #F15C2F;
+  
+ }
+
+ /*============================= All device functional @media setting
+ =======================================================================*/
+
+ /**********@media > (min-width: 320px) and (max-width: 668px)
+*************************************************************************/
+@media screen and  (min-width: 320px) and (max-width:668px){
+/**********container**************/
+  .container{
+      width: 100%;
+  }
+  /**********header > width**************/
+  header{
+    width: 100%;
+  }
+  /**********about-btn > top 60px**************/
+  .about-btn{
+    margin-top: 60px;
+  }
+  /**********about-btn > p (_desgin)**************/
+  .about-btn p{
+    font-size: 12px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 8px 14px;
+  }
+  /**********.A-sec-service, .B-sec-service, .B2-sec-service(_desgin)************************************/
+  .A-sec-service, .B-sec-service, .B2-sec-service{
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 50px;
+  }
+   /**********.B-service, .B2-service(_desgin)************************************/
+  .B-service{
+    height: 380px;
+    width: 100%;
+  }
+  .B2-service{
+    width: 100%;
+    height: 350px;
+ }
+   /**********..B-service h4(_desgin)************************************/
+  .B-service h4{
+    margin-top: 20px;
+    width: 40%;
+    font-size: 18px;
+    padding: 10px 15px;
+  }
+  /**********.B-service img, .B2-service img, .A-service img(_desgin)************************************/
+  .B-service img{
+    width: 100%;
+    padding: 0;
+  }
+  .B2-service img{
+    width: 100%;
+    padding: 0;
+  }
+  .A-service img{
+    margin-top: 50px;
+  }
+  /**********#para, #para2(_desgin)************************************/
+  #para{
+    width: 90%;
+  }
+  #para2{
+    width: 100%;
+  }
+   /**********.button > button a, button2 > button2 a(_desgin)************************************/
+  .button{
+    margin-top: 20px;
+  }
+  .button a{
+      font-size: 12px;
+  }
+  .button2{
+    margin-top: 20px;
+  }
+  .button2 a{
+      font-size: 12px;
+  }
+    /**********.btn-one,,.btn-two {requetment button}(_desgin)************************************/
+  .btn-one{
+    padding: 4px 8px;
+    margin-right: 5px;
+  }
+  .btn-two{
+    padding: 4px 10px;
+    margin: 0;
+  }
+   /**********#name2(_desgin)************************************/
+  #name2{
+    font-size: 25px;
+  }
+  /**********.contact > contact p, contact-details,(_desgin)************************************/
+  .contact{
+    margin-top: 60px;
+  }
+  .contact p{
+    font-size: 12px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 8px 14px;
+  }
+  .contact-details{
+    width: 100%;
+    display: block;
+    margin-top: 50px;
+ }
+ /**********.dcpt p,(_desgin)************************************/
+ .dcpt p{
+    font-size: 12px;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 30px;
+    letter-spacing: 1px;
+    line-height: 20px;
+ }
+  /**********.address > .address h4, .loc-nmbr(_desgin)************************************/
+ .address{
+    padding: 15px;
+    height: 250px;
+ }
+ .address h4{
+    margin-bottom: 20px;
+ }
+ .address
+  {
+    margin-left: 0;
+  }
+ .loc-nmbr{
+    margin-top: 20px;
+ }
+  /**********.from-sec > .from-sec input, textarea(_desgin)************************************/
+ .from-sec{
+  width: 100%;
+  margin: 0 auto;
+  padding: 8px;
+}
+ .from-sec input{
+  padding: 10px;
+  margin:  8px 0;
+  width: 100%;
+  border:1px solid black;
+}
+textarea{
+  width: 100%;
+  border:1px solid black;
+  padding: 10px;
+  margin: 5px 0;
+}
+/**********.submit-button a(_desgin)************************************/
+.submit-button a{
+  padding: 5px;
+  width: 100%;
+  margin: 0;
+  font-size: 15px;
+}
+/**********footer> none display************************************/
+footer{
+  display: none;
+}
+/**********.fixed-menu > none display************************************/
+ .fixed-menu{
+      display: none;
+    }
+    /**********.backtotop i************************************/
+    .backtotop i{
+      font-size: 15px;
+    } 
+  
+  
+}
+/**********@media >  (min-width: 768px) and (max-width: 1024px)
+*************************************************************************/
+ @media screen and  (min-width: 768px) and (max-width: 1024px){
+/**********container**************/
+  .container
+  {
+    width: 100%;
+  }
+  /**********header**************/
+  header
+  {
+    width: 100%;
+  }
+  /**********about-btn p**************/
+  .about-btn p
+  {
+    font-size: 15px;
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  /**********.A-sec-service, .B-sec-service**************/
+  .A-sec-service
+  {
+    grid-gap: 35px;
+  }
+  .B-sec-service
+  {
+    grid-gap: 30px;
+  }
+    /**********.A-service p**************/
+  .A-service p
+  {
+    font-size: 12px;
+  }
+  /********** .B-service h4**************/
+  .B-service h4
+  {
+    font-size: 20px;
+    width: 40%;
+  }
+  /**********.button > button a, button2 > button2 a(_desgin)************************************/
+  .button a
+  {
+    font-size: 12px;
+  }
+  .button2 a
+  {
+    font-size: 12px;
+  }
+  /**********#para, #para2(_desgin)************************************/
+  #para
+  {
+    width: 90%;
+  }
+  #para2
+  {
+    width: 90%;
+  }
+   /**********.B2-service img************************************/
+  .B2-service img
+  {
+    width: 400px;
+  }
+   /**********.contact p, .contact-details************************************/
+  .contact p
+  {
+    font-size: 15px;
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .contact-details
+  {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 90px;
+  }
+  /**********..from-sec input  textarea************************************/
+  .from-sec input
+  {
+    padding: 5px;
+    margin: 7px 3px;
+    width: 45%;
+    border: 1px solid black;
+    outline: none;
+  }
+  textarea{
+     width: 93%;
+     /*height: 10%;*/
+     border: 1px solid black;
+  }
+  .address
+  {
+    margin-left: 0;
+  }
+  /**********.dcpt p************************************/
+  .dcpt p
+  {
+    font-size: 15px;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+    letter-spacing: 1px;
+    line-height: 20px;
+ }
+  /********** .submit-button a************************************/
+ .submit-button a
+ {
+  width: 100%;
+  padding: 5px 95px;
+ }
+
+/**********footer> padding set************************************/
+ footer
+ {
+   padding: 20px 100px;
+
+ }
+ 
+
+ }
